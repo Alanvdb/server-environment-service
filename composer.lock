@@ -1,0 +1,181 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e34b79e445ac45c0cb8c753587b06eb6",
+    "packages": [
+        {
+            "name": "alanvdb/dotenv-interfaces",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/dotenv-interfaces.git",
+                "reference": "33644a795c1627fb76842bc66df626645c53b3da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/dotenv-interfaces/zipball/33644a795c1627fb76842bc66df626645c53b3da",
+                "reference": "33644a795c1627fb76842bc66df626645c53b3da",
+                "shasum": ""
+            },
+            "require": {
+                "alanvdb/server-interfaces": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlanVdb\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alanvdb",
+                    "email": "alanvdb.coder@gmail.com"
+                }
+            ],
+            "description": "Interfaces and Exceptions for .env file handling.",
+            "support": {
+                "issues": "https://github.com/Alanvdb/dotenv-interfaces/issues",
+                "source": "https://github.com/Alanvdb/dotenv-interfaces/tree/v1.0"
+            },
+            "time": "2025-05-12T16:03:50+00:00"
+        },
+        {
+            "name": "alanvdb/dotenv-parser",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/dotenv-parser.git",
+                "reference": "81e826719a46bf948e8af1e09d34958425ff39da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/dotenv-parser/zipball/81e826719a46bf948e8af1e09d34958425ff39da",
+                "reference": "81e826719a46bf948e8af1e09d34958425ff39da",
+                "shasum": ""
+            },
+            "require": {
+                "alanvdb/dotenv-interfaces": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlanVdb\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alanvdb",
+                    "email": "alanvdb.coder@gmail.com"
+                }
+            ],
+            "description": "Returns the .env file config as array.",
+            "support": {
+                "issues": "https://github.com/Alanvdb/dotenv-parser/issues",
+                "source": "https://github.com/Alanvdb/dotenv-parser/tree/v1.1"
+            },
+            "time": "2025-05-13T15:47:58+00:00"
+        },
+        {
+            "name": "alanvdb/server-environment",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/server-environment.git",
+                "reference": "85ecdcdd1b433acb988d6cfc361ad3272ac728b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/server-environment/zipball/85ecdcdd1b433acb988d6cfc361ad3272ac728b6",
+                "reference": "85ecdcdd1b433acb988d6cfc361ad3272ac728b6",
+                "shasum": ""
+            },
+            "require": {
+                "alanvdb/server-interfaces": "^1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlanVdb\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alanvdb",
+                    "email": "alanvdb.coder@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Alanvdb/server-environment/issues",
+                "source": "https://github.com/Alanvdb/server-environment/tree/v1.0"
+            },
+            "time": "2025-05-15T08:50:34+00:00"
+        },
+        {
+            "name": "alanvdb/server-interfaces",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/server-interfaces.git",
+                "reference": "413ee16d4bc21bed65666b49f3da09974b783cd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/server-interfaces/zipball/413ee16d4bc21bed65666b49f3da09974b783cd3",
+                "reference": "413ee16d4bc21bed65666b49f3da09974b783cd3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlanVdb\\Server\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alanvdb",
+                    "email": "alanvdb.coder@gmail.com"
+                }
+            ],
+            "description": "Server interfaces and exceptions",
+            "support": {
+                "issues": "https://github.com/Alanvdb/server-interfaces/issues",
+                "source": "https://github.com/Alanvdb/server-interfaces/tree/v1.1.0"
+            },
+            "time": "2025-05-12T13:18:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

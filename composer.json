@@ -1,0 +1,22 @@
+{
+    "name": "alanvdb/server-environment-service",
+    "description": "Service for server environment and .env variables access.",
+    "type": "library",
+    "require": {
+        "alanvdb/server-interfaces": "^1.1",
+        "alanvdb/server-environment": "^1.0",
+        "alanvdb/dotenv-parser": "^1.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Server\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ]
+}
