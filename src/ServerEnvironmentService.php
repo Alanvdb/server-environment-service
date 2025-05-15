@@ -3,6 +3,7 @@
 namespace AlanVdb\Server;
 
 use AlanVdb\Server\Definition\ServerEnvironmentServiceInterface;
+use AlanVdb\Server\Definition\ServerEnvironmentInterface;
 
 class ServerEnvironmentService implements ServerEnvironmentServiceInterface
 {
